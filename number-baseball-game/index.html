@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>숫자 야구 게임</title>
+</head>
+
+<body>
+  <h1>숫자 맞추기 게임</h1>
+  <input type="text" id="userInput" placeholder="3자리 숫자를 입력하세요 (예: 123)" maxlength="3">
+  <button id="submitButton" onclick="processGuess()">제출</button>
+  <div id="attempts"></div>
+  <p id="result"></p>
+  <p id="secretNumbers" style="display:inline-block"></p>
+  <script src="numBaseball.js"></script>
+</body>
+
+</html>
